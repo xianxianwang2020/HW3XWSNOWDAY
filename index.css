@@ -80,3 +80,28 @@ body{
       border: red double;
       border-radius:6%;
   }
+
+
+.grid-container {
+  display: grid;
+  grid-gap: 1.5% 5%;
+  grid-template-columns: auto auto auto;
+  background-color: red;
+  padding: 1%;
+  border: red 3px;
+}
+
+.grid-item {
+  background-color: lightyellow;
+  border: 1px dotted rgba(0, 0, 0, 0.8);
+  padding: 1%;
+  font-size: 20px;
+  text-align: center;
+}
+#footer{
+  color: red;
+  border: red solid;  
+  background-color: lightyellow;
+  border-radius: 3%;
+
+}
